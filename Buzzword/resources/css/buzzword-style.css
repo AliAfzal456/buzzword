@@ -1,0 +1,125 @@
+.segmented-button-bar .button {
+    -fx-background-color:
+            lightgrey;
+    -fx-background-radius: 0.7em;
+}
+
+.segmented-button-bar .button.first-toolbar-button {
+    -fx-background-radius: 0.7em;
+}
+
+.segmented-button-bar .button.last-toolbar-button {
+    -fx-background-radius: 0.7em;
+}
+
+.segmented-button-bar .button:pressed {
+    -fx-background-color:
+            -darkest-black,
+            rgb(55, 57, 58),
+            linear-gradient(to top, -light-black 2%, -dark-black 98%);
+}
+
+.heading-label {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+/*.home-node{
+    -fx-background-color: black;
+    -fx-background-radius: .5em;
+    -fx-effect: dropshadow(gaussian, gray, 6, 0.5, 3, 0)
+}*/
+.home-node{
+    -fx-background-color:
+            linear-gradient(#686868 0%, #232723 25%, #373837 75%, #757575 100%),
+            linear-gradient(#020b02, #3a3a3a),
+            linear-gradient(#9d9e9d 0%, #6b6a6b 20%, #343534 80%, #242424 100%),
+            linear-gradient(#8a8a8a 0%, #6b6a6b 20%, #343534 80%, #262626 100%),
+            linear-gradient(#777777 0%, #606060 50%, #505250 51%, #2a2b2a 100%);
+    -fx-background-insets: 0,1,4,5,6;
+    -fx-background-radius: 9,8,5,4,3;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 5, 0.2 , 0 , 1);
+}
+
+.home-node:disabled{
+    -fx-effect: dropshadow(gaussian, gray, 5, .5, 2, 0);
+}
+
+.button:pressed{
+    -fx-background-color: darkseagreen;
+}
+
+.combo-box-base {
+    -fx-background-color:
+            lightgrey;
+    -fx-background-radius: 0.7em;
+    -fx-text-fill: black;
+}
+
+.combo-box-base .text-input{
+    -fx-text-fill: black;
+}
+
+.in-game-labels{
+    -fx-background-color: lightgray;
+    -fx-background-radius: 0.8em;
+    -fx-font-size: 20px;
+    -fx-padding: 10px 5px 10px 5px;
+    -fx-text-fill: red;
+    -fx-font-family: Century Gothic, sans-serif;
+}
+
+.other-labels{
+    -fx-background-color: dimgray;
+    -fx-padding: 10px 5px 10px 5px;
+    -fx-font-size:20px;
+    -fx-text-fill: white;
+}
+
+.list-view .scroll-bar:horizontal .increment-arrow,
+.list-view .scroll-bar:horizontal .decrement-arrow,
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button {
+    -fx-padding:0;
+}
+
+/* Default row background is black */
+.table-row-cell {
+    -fx-background-color: gray;
+    -fx-background-insets: 1,0,0,0;
+}
+
+/* Text in the rows will be white */
+.table-row-cell .text {
+    -fx-fill: white ;
+}
+
+
+#pause{
+    -fx-background-color: tan;
+    -fx-background-radius: 0.8em;
+    -fx-text-alignment: center;
+}
+
+
+#background {
+    -light-black: rgb(74, 75, 78);
+    -dark-highlight: rgb(87, 89, 92);
+    -dark-black: rgb(39, 40, 40);
+    -darkest-black: rgb(5, 5, 5);
+    -mid-gray: rgb(216, 222, 227);
+    -fx-background-color: darkgray;
+}
+
+#toolbar {
+    -fx-base: -dark-black;
+    -fx-font-size: 12pt;
+    -fx-background-color:
+            linear-gradient(from 0% 0% to 80% 0%, gainsboro 80%, transparent 20%);
+    -fx-padding: .9em 0.416667em .9em 0.416667em;
+}

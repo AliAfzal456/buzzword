@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the standard controls for an app from the SimpleAppFramework, so
+    it would not include things initialized for the workspace, which is
+    customizable.
+-->
+<properties>
+    <property_list>
+        <property name="APP_WINDOW_WIDTH" value="1100"/>
+        <property name="APP_WINDOW_HEIGHT" value="700"/>
+        <property name="APP_TITLE" value="Buzzword"/>
+        <property name="APP_LOGO" value="Icon.png"/>
+        <property name="APP_PATH_CSS" value="css"/>
+        <property name="APP_CSS" value="buzzword-style.css"/>
+        <property name="APP_SAVED_GAMES_PATH" value="work"/>
+
+        <!-- WORKSPACE CSS PROPERTIES -->
+        <property name="ROOT_BORDERPANE_ID" value="background"/>
+        <property name="HOME_SCREEN_NODES" value="home-node"/>
+        <property name="TOP_TOOLBAR_ID" value="toolbar"/>
+        <property name="SEGMENTED_BUTTON_BAR" value="segmented-button-bar"/>
+        <property name="FIRST_TOOLBAR_BUTTON" value="first-toolbar-button"/>
+        <property name="LAST_TOOLBAR_BUTTON" value="last-toolbar-button"/>
+        <property name="HEADING_LABEL" value="heading-label"/>
+
+        <!-- labels for login/signup prompts -->
+        <property name="LOGIN_TITLE" value="Login"/>
+        <property name="CREDENTIALS_LABEL" value="Enter your credentials"/>
+        <property name="NEW_CREDENTIALS_LABEL" value="Please Enter Your Desired Username and Password"/>
+        <property name="USERNAME_LABEL" value ="Username: "/>
+        <property name="PASSWORD_LABEL" value="Password: "/>
+        <property name="CONFIRM_PASSWORD_LABEL" value="Confirm Password: "/>
+
+        <!-- titles for the categories -->
+        <property name="CATEGORY1" value="General"/>
+        <property name="CATEGORY2" value="Names"/>
+        <property name="CATEGORY3" value="Medical"/>
+        <property name="CATEGORY4" value="General version 2"/>
+
+        <property name="LEVEL_LABEL" value="Level Select"/>
+        <property name="LEVEL" value="Level: "/>
+        <property name="PLAY" value="PLAY"/>
+        <property name="PAUSE" value="PAUSE" />
+        <property name="RESUME" value="RESUME"/>
+        <property name="SCORE" value="Score:"/>
+        <property name="TARGET" value="Target:"/>
+
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_ICON" value="New.png"/>
+        <property name="LOAD_ICON" value="Load.png"/>
+        <property name="SAVE_ICON" value="Save.png"/>
+        <property name="EXIT_ICON" value="Exit.png"/>
+
+        <!-- TEXT FOR BUTTONS -->
+        <property name="NEW_PROFILE_TEXT" value="Create New Profile"/>
+        <property name="LOGIN_TEXT" value="Login"/>
+        <property name="HOME_TEXT" value="Home"/>
+        <property name="MODE_TEXT" value="Select Mode"/>
+        <property name="PLAY_TEXT" value="Play"/>
+        <property name="HELP_TEXT" value="Help"/>
+        <property name="SAVE_TEXT" value = "Save"/>
+
+        <!-- ERROR MESSAGES -->
+        <property name="CLOSE_BUTTON_TEXT" value="Close"/>
+
+        <property name="NEW_ERROR_TITLE" value="Creation Error"/>
+        <property name="NEW_ERROR_MESSAGE" value="An error occured starting a new game"/>
+        <property name="LOAD_ERROR_TITLE" value="Load Error"/>
+        <property name="LOAD_ERROR_MESSAGE" value="An error occured loading saved game"/>
+        <property name="SAVE_ERROR_TITLE" value="Save Error"/>
+        <property name="SAVE_ERROR_MESSAGE" value="An error occured saving game"/>
+        <property name="PROPERTIES_LOAD_ERROR_TITLE" value="Property Load Error"/>
+        <property name="PROPERTIES_LOAD_ERROR_MESSAGE" value="An error occured loading a property file."/>
+
+        <!-- VERIFICATION MESSAGES -->
+        <property name="NEW_COMPLETED_MESSAGE" value="New Game Ready"/>
+        <property name="NEW_COMPLETED_TITLE" value="New Game Created"/>
+        <property name="LOAD_COMPLETED_MESSAGE" value="Game Loaded"/>
+        <property name="LOAD_COMPLETED_TITLE" value="Loading Completed"/>
+        <property name="SAVE_COMPLETED_MESSAGE" value="Game Saved"/>
+        <property name="SAVE_COMPLETED_TITLE" value="Saving Completed"/>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE" value="Would you like to save your progress so far?"/>
+        <property name="SAVE_UNSAVED_WORK_TITLE" value="Save progress?"/>
+
+        <property name="WORK_FILE_EXT" value="json"/>
+        <property name="WORK_FILE_EXT_DESC" value="Game File"/>
+        <property name="SAVE_WORK_TITLE" value="Save"/>
+        <property name="LOAD_WORK_TITLE" value="Select file to load"/>
+    </property_list>
+    <property_options_list/>
+</properties>
